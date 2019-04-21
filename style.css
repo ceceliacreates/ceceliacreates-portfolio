@@ -1,0 +1,29 @@
+#headshot {
+    border: solid 2px black;
+}
+h1, h2, h4 {
+    font-family: "Quicksand", sans-serif;
+}
+p, a, h3, h5 {
+    font-family: "Oxygen", sans-serif;
+}
+h5 {
+    font-weight: bold;
+}
+h1, a, a:hover {
+    color: #336e7b;
+}
+h3 {
+    color: #013243;
+}
+body {
+    background: #ecf0f1;
+    color: #2e3131;
+}
+#newsletter a {
+    color: #013243;
+}
+.footer p {
+    font-weight: bold;
+    color: #013243;
+}
