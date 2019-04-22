@@ -20,8 +20,14 @@ body {
     background: #ecf0f1;
     color: #2e3131;
 }
+#newsletter {
+    border-bottom: solid 2px #013243;
+}
 #newsletter a {
     color: #013243;
+}
+.footer {
+    border-top: solid 2px #013243;
 }
 .footer p {
     font-weight: bold;
