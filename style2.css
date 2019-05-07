@@ -27,6 +27,7 @@
 .icon-bar {
     width: 100%;
     background: #6CACBE;
+    margin-bottom: 10px;
 }
 .icon-bar a {
     color: white;
@@ -39,8 +40,47 @@
   .icon-bar a:hover {
       opacity: .5;
   }
+h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 100px;
+}
+@media screen and (max-width: 1090px) {
+    h3 {
+        font-size: 125px;
+        margin-top: -8px;
+    }
+    #about {
+        padding-top: 16px;
+    }
+}
+@media screen and (max-width: 870px) {
+    h3 {
+        font-size: 175px;
+        margin-top: -24px;
+    }
+    #about {
+        padding-top: 24px;
+    }
+}
+@media screen and (max-width: 650px) {
+    h3 {
+        font-size: 200px;
+    }
+    #about {
+        padding-top: 16px;
+    }
+}
+@media screen and (max-width: 610px) {
+    h3 {
+        display: none;
+    }
+    #about {
+        padding-top: 8px;
+    }
+}
 p {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     font-family: "Quicksand", sans-serif;
     display: inline;
 }
