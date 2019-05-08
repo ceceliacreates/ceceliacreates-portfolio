@@ -1,35 +1,110 @@
-#headshot {
-    border: solid 2px black;
-}
-h1, h2, h4 {
+.header {
+    padding: 30px;
+    color: white;
     font-family: "Quicksand", sans-serif;
+    position: relative;
+    width: 100%;
 }
-p, a, h3, h5 {
+
+.header::after {
+    content: "";
+    background-image: url(assets/codebackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+#headshot {
+    padding: 10px;
+}
+.icon-bar {
+    width: 100%;
+    background: #6CACBE;
+    margin-bottom: 10px;
+}
+.icon-bar a {
+    color: white;
+    padding: 10px;
+    /*transition: all 0.3s ease;*/
+    font-size: 40px;
+    transition: opacity .5s;
+  }
+
+  .icon-bar a:hover {
+      opacity: .5;
+  }
+h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 100px;
+}
+@media screen and (max-width: 1090px) {
+    h3 {
+        font-size: 125px;
+        margin-top: -8px;
+    }
+    #about {
+        padding-top: 16px;
+    }
+}
+@media screen and (max-width: 870px) {
+    h3 {
+        font-size: 175px;
+        margin-top: -24px;
+    }
+    #about {
+        padding-top: 24px;
+    }
+}
+@media screen and (max-width: 650px) {
+    h3 {
+        font-size: 200px;
+    }
+    #about {
+        padding-top: 16px;
+    }
+}
+@media screen and (max-width: 610px) {
+    h3 {
+        display: none;
+    }
+    #about {
+        padding-top: 8px;
+    }
+}
+.description {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+    display: inline;
+}
+h4 {
+    color: #6CACBE;
     font-family: "Oxygen", sans-serif;
 }
 h5 {
+    color: #6CACBE;
+    font-family: "Quicksand", sans-serif;
     font-weight: bold;
 }
-h1, a, a:hover {
-    color: #336e7b;
+.card {
+    border: solid 1px #6CACBE;
+    height: 100%;
 }
-h3 {
-    color: #013243;
+.card-link {
+    color: #6CACBE;
 }
-body {
-    background: #ecf0f1;
-    color: #2e3131;
-}
-#newsletter {
-    border-bottom: solid 2px #013243;
-}
-#newsletter a {
-    color: #013243;
+.card-link:hover {
+    color: black;
 }
 .footer {
-    border-top: solid 2px #013243;
-}
-.footer p {
-    font-weight: bold;
-    color: #013243;
+    background: #6CACBE;
+    color: white;
+    font-family: "Quicksand", sans-serif;
 }
