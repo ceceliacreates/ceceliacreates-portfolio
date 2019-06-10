@@ -61,6 +61,9 @@
               target="blank"
               ><i class="fab fa-linkedin"></i
             ></a>
+            <a href="https://dev.to/ceceliacreates">
+              <i class="fab fa-dev" title="ceceliacreates's DEV Profile"></i>
+            </a>
             <a
               href="assets/CeceliaMartinezResumeMay232019.pdf"
               alt="resume"
@@ -93,6 +96,52 @@
            <h4 class="text-center m-3">[ Featured Projects ]</h4>
          </div>
        </div>
+       <div class="row">
+        <div class="col-12 col-md-6 my-2">
+            <div class="card m-3">
+              <div class="card-body">
+                <h5 class="card-title text-center">Parse.ly</h5>
+                <img src="assets/ParselyScreenCap.PNG" class="img-fluid project-img p-2">
+                <h6 class="text-center">Built with HTML5, CSS (Flexbox-Grid Library), Javascript (JQuery), Node, Express, MySQL (Sequelize), Nightmare, and Cheerio</h6>
+                <p class="card-text">An app that matches users to recommended plants based on their lifestyle and interests and saves results for future reference.</p>
+                <div class="text-center mb-1">
+                <a class="card-link" href="https://github.com/ceceliacreates/parse-ly">Repository</a>
+                <a class="card-link" href="https://parse-ly.herokuapp.com/">Deployed</a>
+                </div>
+                <h6>Unique Challenges</h6>
+                <ul>
+                  <li>Many plants had multiple values for some table columns, requiring the use of the substring Sequelize query to find the matching value within the array of possible values</li>
+                  <li>Survey results didn't directly match all data types in the database, requiring the translation of the logic to compare the results and return correct data</li>
+                  <li>Multiple filters sometimes resulted in too few matches</li>
+                  <li>The use of a multi-step form without a rendering framework like React required a switch case and button IDs to dynamically render to the DOM while capturing input data</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 my-2">
+           <div class="card m-3">
+               <div class="card-body">
+                 <h5 class="card-title text-center">Storefront and Inventory Database</h5>
+                 <img src="assets/bamazonvideoscreencap.PNG" class="img-fluid project-img p-2">
+                 <h6 class="text-center">Built with Flexbox, Javascript, Express, and Sequelize for MySQL</h6>
+                 <p class="card-text">A full-stack storefront with corresponding inventory database that dynamically renders and updates products</p>
+                 <div class="text-center mb-1">
+                 <a class="card-link" href="https://github.com/ceceliacreates/bamazon">Repository</a>
+                 <a class="card-link" href="https://secret-brushlands-48067.herokuapp.com/">Deployed</a>
+                 <a class="card-link" href="https://drive.google.com/file/d/1zw3GRz1MfucWD1mYjSgnjg8ZEH02zIcq/view">Demo Video</a>
+                 </div>
+                 <h6>Functionality</h6>
+                 <ul>
+                   <li>Delivers front-end HTML files dynamically using server routes</li>
+                   <li>Queries database for inventory level before approving purchases</li>
+                   <li>Updates inventory in database to reflect purchases</li>
+                   <li>Includes an API route for managers to view products with low stock</li>
+                   <li>Product images are rendered dynamically from a selection of icons based on the product category</li>
+                 </ul>
+               </div>
+             </div>
+       </div>
+    </div>
        <div class="row">
         <div class="col-12 col-md-6 my-2">
             <div class="card m-3">
@@ -216,7 +265,7 @@
                    <div class="text-center mb-1">
                    <a class="card-link" href="https://github.com/ceceliacreates/budget_calculator">Repository</a>
                    <a class="card-link" href="https://ceceliacreates.github.io/budget_calculator">Deployed</a>
-                   <a class="card-link" href="https://drive.google.com/file/d/1p_SK2CSihPCoXW0tXW0-1AHPdR-OYTbs/view">Video Demo</a>
+                   <a class="card-link" href="https://drive.google.com/file/d/1p_SK2CSihPCoXW0tXW0-1AHPdR-OYTbs/view">Demo Video</a>
                    </div>
                    <h6>Unique Challenges</h6>
                    <ul>
