@@ -44,6 +44,10 @@ h3 {
     font-family: "Quicksand", sans-serif;
     font-size: 100px;
 }
+.around-the-web {
+    width: 40%;
+    padding: 5%;
+}
 @media screen and (max-width: 1090px) {
     h3 {
         font-size: 125px;
