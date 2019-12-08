@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90997094-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-90997094-1');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cecelia Martinez: Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Quicksand" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 header">
+                <p class="text-right"><a href="index.html">Home</a>&#8226 <a href="portfolio.html">Portfolio</a>&#8226
+                    <a href="assets/CeceliaMartinezResumeNovember2019FORWEBSITE.pdf" target="blank">Resume</a></p>
+                <h1 class="text-center">Cecelia Martinez</h1>
+                <img src="assets/IMG_0074.jpg" alt="headshot" class="img-fluid rounded-circle mx-auto d-block"
+                    id="headshot" />
+                <h2 class="text-center tagline">A developer who gets how business gets done.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="icon-bar text-center">
+                    <a href="mailto:ceceliacreates@gmail.com" alt="email" target="blank"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/ceceliacreates" alt="github" target="blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/ceceliacreates" alt="twitter" target="blank"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ceceliamartinez/" alt="linkedin" target="blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://dev.to/ceceliacreates">
+                        <i class="fab fa-dev" title="ceceliacreates's DEV Profile"></i>
+                    </a>
+                    <a href="https://twitch.tv/ceceliacreates">
+                        <i class="fab fa-twitch" title="ceceliacreates's Twitch Channel"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCc5ceLC-OskzfQ2pMoCEzwQ" target="blank">
+                        <i class="fab fa-youtube" title="ceceliacreate's YouTube Channel"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-center m-3">[ Featured Projects ]</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Parse.ly</h5>
+                        <img src="assets/ParselyScreenCap.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with HTML5, CSS (Flexbox-Grid Library), Javascript (JQuery), Node,
+                            Express, MySQL (Sequelize), Nightmare, and Cheerio</h6>
+                        <p class="card-text">An app that matches users to recommended plants based on their lifestyle
+                            and interests and saves results for future reference.</p>
+                        <div class="text-center mb-1">
+                            <a class="card-link" href="https://github.com/ceceliacreates/parse-ly">Repository</a>
+                            <a class="card-link" href="https://parse-ly.herokuapp.com/">Deployed</a>
+                        </div>
+                        <h6>Unique Challenges</h6>
+                        <ul>
+                            <li>Many plants had multiple values for some table columns, requiring the use of the
+                                substring Sequelize query to find the matching value within the array of possible values
+                            </li>
+                            <li>Survey results didn't directly match all data types in the database, requiring the
+                                translation of the logic to compare the results and return correct data</li>
+                            <li>Multiple filters sometimes resulted in too few matches</li>
+                            <li>The use of a multi-step form without a rendering framework like React required a switch
+                                case and button IDs to dynamically render to the DOM while capturing input data</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Storefront and Inventory Database</h5>
+                        <img src="assets/bamazonvideoscreencap.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with Flexbox, Javascript, Express, and Sequelize for MySQL</h6>
+                        <p class="card-text">A full-stack storefront with corresponding inventory database that
+                            dynamically renders and updates products</p>
+                        <div class="text-center mb-1">
+                            <a class="card-link" href="https://github.com/ceceliacreates/bamazon">Repository</a>
+                            <a class="card-link" href="https://secret-brushlands-48067.herokuapp.com/">Deployed</a>
+                            <a class="card-link"
+                                href="https://drive.google.com/file/d/1zw3GRz1MfucWD1mYjSgnjg8ZEH02zIcq/view">Demo
+                                Video</a>
+                        </div>
+                        <h6>Functionality</h6>
+                        <ul>
+                            <li>Delivers front-end HTML files dynamically using server routes</li>
+                            <li>Queries database for inventory level before approving purchases</li>
+                            <li>Updates inventory in database to reflect purchases</li>
+                            <li>Includes an API route for managers to view products with low stock</li>
+                            <li>Product images are rendered dynamically from a selection of icons based on the product
+                                category</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">BackPack: Your Adventure Awaits</h5>
+                        <img src="assets/BackPackScreenCap.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with HTML5, CSS (Bootstrap), Javascript (JQuery), APIs/AJAX</h6>
+                        <p class="card-text">A responsive, user-friendly hiking trail search app for web and mobile
+                            devices.</p>
+                        <div class="text-center mb-1">
+                            <a class="card-link" href="https://github.com/ceceliacreates/project-green">Repository</a>
+                            <a class="card-link" href="https://ceceliacreates.github.io/project-green">Deployed</a>
+                            <a class="card-link" href="https://vimeo.com/338145605">Video Presentation</a>
+                        </div>
+                        <h6>Unique Challenges</h6>
+                        <ul>
+                            <li>Differentiating between current location or search input location for AJAX calls</li>
+                            <li>Managing dependencies between multiple asynchronous AJAX calls</li>
+                            <li>Filtering API call responses by trail length search criteria</li>
+                            <li>Clearing previous search criteria to allow for multiple searches in the same session
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LIRI Bot in Node.js</h5>
+                        <img src="assets/nodebotscreencap.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with Node.js, Spotify Node API, and Axios for Command Line
+                            Interface</h6>
+                        <p class="card-text">A command line interface bot that takes in key word commands to return
+                            search results from multiple APIs.</p>
+                        <div class="text-center mb-1">
+                            <a class="card-link" href="https://github.com/ceceliacreates/liri-node-app">Repository</a>
+                            <a class="card-link"
+                                href="https://drive.google.com/file/d/1y4Z4oBkDBna0AA5xVKpoOG8fILIAXa49/view?usp=sharing">Demo
+                                Video</a>
+                        </div>
+                        <h6>Search Commands</h6>
+                        <ul>
+                            <li>concert-this: returns concert information for an artist from the Bands In Town API</li>
+                            <li>spotify-this-song: returns song information and a preview URL for a given song title
+                                using the Spotify-Node-API</li>
+                            <li>movie-this: returns details about a given movie title from the OMDB API</li>
+                            <li>do-what-it-says: runs a given command and search input from a local file</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Dog Tag</h5>
+                        <img src="assets/DogTagScreenCap.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with HTML5, CSS (Bootstrap), Vanilla Javascript, Node.js, and
+                            Express.js</h6>
+                        <p class="card-text">A full stack application that matches your pet with its ideal playdate
+                            based on survey results.</p>
+                        <div class="text-center mb-1">
+                            <a class="card-link" href="https://github.com/ceceliacreates/friend-finder">Repository</a>
+                            <a class="card-link" href="https://morning-spire-31344.herokuapp.com/">Deployed</a>
+                        </div>
+                        <h6>Unique Challenges</h6>
+                        <ul>
+                            <li>Performing server-side logic based on survey results that returns a response to the
+                                client and renders to DOM</li>
+                            <li>Using Vanilla Javascript to make all HTTP requests to reduce dependencies</li>
+                            <li>Manipulating built-in Bootstrap components like modals without JQuery</li>
+                            <li>Configuring for and deploying to Heroku</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Harry Potter Hangman</h5>
+                        <img src="assets/HPUICapture.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with HTML5, CSS (Simple Grid), Vanilla Javascript</h6>
+                        <p class="card-text">A Harry Potter-themed hangman/word guess game that responds with a
+                            corresponding GIF when the player wins.</p>
+                        <div class="text-center mb-1">
+                            <a class="card-link"
+                                href="https://github.com/ceceliacreates/Harry-Potter-Hangman/tree/gh-pages">Repository</a>
+                            <a class="card-link"
+                                href="https://ceceliacreates.github.io/Harry-Potter-Hangman/">Deployed</a>
+                        </div>
+                        <h6>Unique Challenges</h6>
+                        <ul>
+                            <li>Using an object to store word bank data and corresponding GIF image files</li>
+                            <li>Using a regular expression (RegEx) to match guesses against letters in word</li>
+                            <li>Accounting for multiple instances of the same letter in a word</li>
+                            <li>Using counters to track number of guesses and wins</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">TGIF Trivia Game</h5>
+                        <img src="assets/triviagamescreencap.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with HTML5, CSS (Bootstrap), Javascript (JQuery)</h6>
+                        <p class="card-text">An interactive trivia game that utilizes Javascript time events.</p>
+                        <div class="text-center mb-1">
+                            <a class="card-link" href="https://github.com/ceceliacreates/trivia-game">Repository</a>
+                            <a class="card-link" href="https://ceceliacreates.github.io/trivia-game/">Deployed</a>
+                        </div>
+                        <h6>Unique Challenges</h6>
+                        <ul>
+                            <li>Managing simultaneous timers to track timeouts while also displaying time left and
+                                clearing timers based on click events</li>
+                            <li>Using objects to access questions, multiple choice options, correct answer, and
+                                corresponding image files</li>
+                            <li>Using functions to dynamically render to DOM without unecessary code repetition (DRY
+                                principle)</li>
+                            <li>Tracking number of correct answers to display at end of game</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">BudgetBasic Calculator</h5>
+                        <img src="assets/BudgetBasicScreenCap.PNG" class="img-fluid project-img p-2">
+                        <h6 class="text-center">Built with HTML5, CSS (Bootstrap), Javascript (JQuery)</h6>
+                        <p class="card-text">A budget calculator app that features a customized savings rate,
+                            differentiating between
+                            essential and discretionary expenses, and suggestions based on results.</p>
+                        <p class="text-center"><a class="card-link"
+                                href="https://codepen.io/ethanthompson/pen/emKmYJ">Based
+                                on the 'Simple Budget
+                                Calculator' by Ethan Thompson on CodePen</a></p>
+                        <div class="text-center mb-1">
+                            <a class="card-link"
+                                href="https://github.com/ceceliacreates/budget_calculator">Repository</a>
+                            <a class="card-link" href="https://ceceliacreates.github.io/budget_calculator">Deployed</a>
+                            <a class="card-link"
+                                href="https://drive.google.com/file/d/1p_SK2CSihPCoXW0tXW0-1AHPdR-OYTbs/view">Demo
+                                Video</a>
+                        </div>
+                        <h6>Unique Challenges</h6>
+                        <ul>
+                            <li>Understanding and expanding on existing code</li>
+                            <li>Managing multiple form input variables to make calculations</li>
+                            <li>Nested conditional statements to differentiate output for multiple response cases</li>
+                            <li>Sourcing and building a project independently outside of a formal education environment
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pt-3 mt-4 text-center footer">
+                <p>&copy; 2019 Cecelia Martinez</p>
+            </div>
+        </div>
+</body>
+
+</html>
